@@ -50,7 +50,7 @@ public class ListViewActivity extends Activity {
 		// Carrega os dados
 		mList = this.loadData();
 		
-		// Inst‰ncia o Adapter passando o ArrayList dos dados
+		// Instancia o Adapter passando o ArrayList dos dados
 		MyAdapter adapter = new MyAdapter(getApplicationContext(), mList);
 		
 		// Configura o Adapter na ListView
