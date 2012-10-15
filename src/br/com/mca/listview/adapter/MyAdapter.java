@@ -73,7 +73,7 @@ public class MyAdapter extends BaseAdapter {
 		}
 
 		// Bind the data efficiently with the holder.
-		holder.textName.setText(mList.get(position));
+		holder.textName.setText((position + 1) + " - " + mList.get(position));
 
 		return convertView;
 	}
